@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaya College of Engineering, Gaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .marquee {
+            animation: marquee 15s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <div class="bg-blue-900 text-white text-xs py-1 px-4 flex justify-between items-center">
+        <div class="flex space-x-4">
+            <a href="#" class="hover:text-yellow-300 flex items-center">
+                <i data-feather="mail" class="w-3 h-3 mr-1"></i> principal@gcegaya.ac.in
+            </a>
+            <a href="#" class="hover:text-yellow-300 flex items-center">
+                <i data-feather="phone" class="w-3 h-3 mr-1"></i> 0631 - 2220264
+            </a>
+        </div>
+        <div class="flex space-x-4">
+            <a href="#" class="hover:text-yellow-300">Sitemap</a>
+            <a href="#" class="hover:text-yellow-300">Contact</a>
+            <a href="#" class="hover:text-yellow-300">Feedback</a>
+        </div>
+    </div>
+
+    <div class="fixed bottom-2 right-5 z-10">
+        <a href=""><img src="chatbot-chat-message-vectorart.png" alt="" height="128px" width="128px"></a>
+        
+    </div>
+
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <img src="logo.jpg" alt="College Logo" class="h-20 w-20 mr-4">
+                <div>
+                    <h1 class="text-2xl font-bold text-blue-900">GAYA COLLEGE OF ENGINEERING, GAYA</h1>
+                    <p class="text-sm text-gray-600">An Autonomous Institution Under Department of Science & Technology, Govt. of Bihar</p>
+                </div>
+            </div>
+            <div class="bg-blue-100 p-2 rounded-lg">
+                <p class="text-blue-900 font-semibold text-center">NAAC Accredited 'A' Grade</p>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="bg-blue-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <ul class="flex flex-col md:flex-row w-full">
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Home</a>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">About Us <i data-feather="chevron-down" class="w-4 h-4 inline"></i></a>
+                        <ul class="dropdown-menu absolute hidden bg-blue-800 text-white w-48 z-10 group-hover:block">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">History</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Vision & Mission</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Administration</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Academics <i data-feather="chevron-down" class="w-4 h-4 inline"></i></a>
+                        <ul class="dropdown-menu absolute hidden bg-blue-800 text-white w-48 z-10 group-hover:block">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Departments</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Academic Calendar</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Syllabus</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Admission <i data-feather="chevron-down" class="w-4 h-4 inline"></i></a>
+                        <ul class="dropdown-menu absolute hidden bg-blue-800 text-white w-48 z-10 group-hover:block">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">UG Admission</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">PG Admission</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Fee Structure</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Facilities <i data-feather="chevron-down" class="w-4 h-4 inline"></i></a>
+                        <ul class="dropdown-menu absolute hidden bg-blue-800 text-white w-48 z-10 group-hover:block">
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Library</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Hostel</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Sports</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Research</a>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Placement</a>
+                    </li>
+                    <li class="dropdown relative group">
+                        <a href="#" class="py-3 px-4 hover:bg-blue-700 block">Alumni</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg-yellow-400 text-blue-900 overflow-hidden">
+        <div class="marquee py-2 font-semibold">
+            <span class="whitespace-nowrap">Latest News: Admissions open for 2025-29 session | Last date for submission: 30th July 2025 |</span>
+        </div>
+    </div>
+
+
+    <div class="relative h-96 bg-gray-800 overflow-hidden">
+        <img src="hero.jpeg" alt="College Campus" class="w-full h-full object-cover opacity-70">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to GCE Gaya</h1>
+                <p class="text-xl mb-6">Shaping the future through excellence in technical education</p>
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg inline-block">Explore More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-lg p-4 text-center transition duration-300">
+                    <i data-feather="book" class="w-8 h-8 mx-auto text-blue-700 mb-2"></i>
+                    <h3 class="font-semibold text-blue-900">Academics</h3>
+                </a>
+                <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-lg p-4 text-center transition duration-300">
+                    <i data-feather="users" class="w-8 h-8 mx-auto text-blue-700 mb-2"></i>
+                    <h3 class="font-semibold text-blue-900">Admission</h3>
+                </a>
+                <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-lg p-4 text-center transition duration-300">
+                    <i data-feather="briefcase" class="w-8 h-8 mx-auto text-blue-700 mb-2"></i>
+                    <h3 class="font-semibold text-blue-900">Placement</h3>
+                </a>
+                <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-lg p-4 text-center transition duration-300">
+                    <i data-feather="award" class="w-8 h-8 mx-auto text-blue-700 mb-2"></i>
+                    <h3 class="font-semibold text-blue-900">Research</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col md:flex-row gap-8">
+
+            <div class="w-full md:w-2/3">
+
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">About GCE Gaya</h2>
+                    <p class="text-gray-700 mb-4">
+                        Gaya College of Engineering, Gaya is one of the premier technical institutions in Bihar, established in 1986. 
+                        The college is affiliated to Aryabhatta Knowledge University, Patna and approved by AICTE, New Delhi.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        The college offers undergraduate and postgraduate programs in various engineering disciplines with state-of-the-art 
+                        infrastructure and highly qualified faculty members.
+                    </p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">News & Events</h2>
+                    <div class="space-y-4">
+                        <div class="border-b pb-4">
+                            <h3 class="font-semibold text-lg text-blue-800">Workshop on Artificial Intelligence</h3>
+                            <p class="text-gray-600 text-sm mb-2">15th June 2023</p>
+                            <p class="text-gray-700">A two-day workshop on AI and Machine Learning will be conducted by industry experts...</p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Read More</a>
+                        </div>
+                        <div class="border-b pb-4">
+                            <h3 class="font-semibold text-lg text-blue-800">Annual Sports Meet 2023</h3>
+                            <p class="text-gray-600 text-sm mb-2">10th June 2023</p>
+                            <p class="text-gray-700">The college is organizing its annual sports meet from 20th to 22nd June 2023...</p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Read More</a>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg text-blue-800">New Research Lab Inauguration</h3>
+                            <p class="text-gray-600 text-sm mb-2">5th June 2023</p>
+                            <p class="text-gray-700">The new advanced research lab will be inaugurated by the Hon'ble Minister of Education...</p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Read More</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-right">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">View All →</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full md:w-1/3">
+
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">Principal's Message</h2>
+                    <!-- <img src="http://static.photos/people/200x200/1" alt="Principal" class="w-24 h-24 rounded-full mx-auto mb-4"> -->
+                    <p class="text-gray-700 italic mb-4">
+                        "At GCE Gaya, we are committed to providing quality technical education and fostering innovation among our students..."
+                    </p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Read Full Message →</a>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">Important Links</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800 flex items-center"><i data-feather="external-link" class="w-4 h-4 mr-2"></i> AKU Patna</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800 flex items-center"><i data-feather="external-link" class="w-4 h-4 mr-2"></i> AICTE</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800 flex items-center"><i data-feather="external-link" class="w-4 h-4 mr-2"></i> Bihar Student Credit Card</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800 flex items-center"><i data-feather="external-link" class="w-4 h-4 mr-2"></i> DST Bihar</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800 flex items-center"><i data-feather="external-link" class="w-4 h-4 mr-2"></i> NPTEL</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">Quick Contact</h2>
+                    <div class="space-y-3">
+                        <p class="flex items-center text-gray-700"><i data-feather="map-pin" class="w-4 h-4 mr-2 text-blue-600"></i> Bodh Gaya Road, Gaya - 823001</p>
+                        <p class="flex items-center text-gray-700"><i data-feather="phone" class="w-4 h-4 mr-2 text-blue-600"></i> 0631 - 2220264</p>
+                        <p class="flex items-center text-gray-700"><i data-feather="mail" class="w-4 h-4 mr-2 text-blue-600"></i> principal@gcegaya.ac.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">About College</h3>
+                    <p class="text-blue-200 mb-4">Gaya College of Engineering, Gaya is one of the premier technical institutions in Bihar, established in 1986.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-200 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">Academics</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">Admission</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">Placement</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Important Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-200 hover:text-white">AKU Patna</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">AICTE</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">DST Bihar</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">NPTEL</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">Student Credit Card</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <address class="text-blue-200 not-italic">
+                        <p class="mb-2">Gaya College of Engineering</p>
+                        <p class="mb-2">Bodh Gaya Road, Gaya</p>
+                        <p class="mb-2">Bihar - 823001, India</p>
+                        <p class="mb-2">Phone: 0631 - 2220264</p>
+                        <p>Email: principal@gcegaya.ac.in</p>
+                    </address>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-6 text-center text-blue-300">
+                <p>© 2025 Gaya College of Engineering, Gaya. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+</html>
